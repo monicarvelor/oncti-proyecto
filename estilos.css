@@ -25,6 +25,8 @@
 	
 	animation: cambio 15s infinite;
 	animation-direction: alternate;
+	animation-duration: ease-in;
+
 }
 
 .slider li{
