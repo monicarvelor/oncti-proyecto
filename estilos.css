@@ -1,0 +1,58 @@
+.covid19_1{
+	height: 383px;
+	width: 200;
+	
+    
+}
+
+
+.banner{
+	width: 1196px;
+	height: 390px;
+}
+
+.slider{
+	width: 95%;
+	margin:auto;
+	overflow: hidden;
+}
+
+.slider ul{
+	display: flex;
+	padding: 0;
+	
+	animation: cambio 10s infinite;
+	/*animation-direction: alternate;*/
+	animation-timing-function: ease-in;
+}
+
+.slider li{
+	list-style: none;
+	width: 100%;
+}
+
+
+
+@keyframes cambio{
+	0%{
+		margin-left: 0;
+	}
+	20%{
+		margin-left: 0;
+	}
+
+	25%{
+		margin-left: -100%;
+	}
+	45%{
+		margin-left: -100%;
+	}
+
+	/*50%{
+		margin-left: -200%;
+	}
+	70%{
+		margin-left: -200%;
+	}*/
+
+}
