@@ -21,9 +21,8 @@
 	display: flex;
 	padding: 0;
 	
-	animation: cambio 10s infinite;
+	animation: cambio 20s infinite;
 	/*animation-direction: alternate;*/
-	
 }
 
 .slider li{
