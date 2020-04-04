@@ -7,7 +7,7 @@
 
 
 .banner{
-	width: 1197px;
+	width: 1196px;
 	height: 390px;
 
 
@@ -23,7 +23,7 @@
 	display: flex;
 	padding: 0;
 	
-	animation: cambio 20s infinite;
+	animation: cambio 15s infinite;
 	/*animation-direction: alternate;*/
 }
 
