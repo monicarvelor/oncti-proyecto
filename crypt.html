@@ -1,0 +1,34 @@
+<html>
+<head lang="es">
+	<meta charset="utf-8">
+<script language="JavaScript">
+<!--	function clp_clear()
+{ var content=window.clipboardData.getData("Text");
+if (content==null){ window.clipboardData.clearData();}
+setTimeout("clp_clear();",1000);
+}
+//Vacia el portapapeles con el uso del teclado
+if (document.layers)
+document.captureEvents(Event.KEYPRESS)
+function backhome(e){
+window.clipboardData.clearData();
+}
+//Vacia el portapapeles con el uso del mouse
+document.onkeydown=backhome
+function click(){
+if(event.button){
+window.clipboardData.clearData();
+}
+}
+document.onmousedown=click
+//-->
+</script>
+</head>
+<body onMouseOut="window.clipboardData.clearData(); return false" onMouseOver="window.clipboardData.clearData(); return false "onload="clp_clear()">
+
+
+
+</body>
+</html>
+
+/*--------------------------------------------------------------*/
