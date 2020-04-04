@@ -6,10 +6,15 @@
 }
 
 
-
 .banner{
-	width: 1196px;
-	height: 200px;
+	/*width: 1196px;
+	height: 390px;*/
+	width: 350px;
+	height: 350px;
+	display: block;
+	background: url(images/banner12.png)
+	-webkit-background-size: cover;
+
 
 }
 
