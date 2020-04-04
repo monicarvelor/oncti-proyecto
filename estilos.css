@@ -23,7 +23,7 @@
 	
 	animation: cambio 10s infinite;
 	/*animation-direction: alternate;*/
-	animation-timing-function: ease-in;
+	
 }
 
 .slider li{
