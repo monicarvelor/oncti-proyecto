@@ -370,17 +370,47 @@ eval("page" + id + " = window.open(URL, '" + id + "', 'toolbar=1,scrollbars=1,lo
 
                                          </ul>
                                          <style type="text/css">
-                                           ul{
-                                              list-style-type: none;
-                                               margin: 0;
-                                               padding: 0;
-                                               overflow: hidden;
-
-                                            }
-                                            ul ul {
-    display: none;
+                                         
+                                               #menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #377ADE;
+  float: left;
 }
-                                         </style>
+
+ li {
+  display: inline-block;
+  position: relative;
+}
+
+ li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 12px 15px;
+  text-decoration: none;
+}
+
+ li:hover a{
+  background-color: #FF0049;
+  text-decoration: underline;
+}
+
+ ul {
+  display: none;
+  list-style-type: none;
+  padding: 0;
+  position: absolute;
+  top: 100%;
+  width:400px;
+}
+
+ li:hover ul {
+  display: block;
+}
+                                            
+                                                  </style>
                                            
                                         <span title="Aqui debe de ir la informacion del indicador"><li><a href="#">Sectoriales</a></li></span>
 
