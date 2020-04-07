@@ -366,18 +366,13 @@ eval("page" + id + " = window.open(URL, '" + id + "', 'toolbar=1,scrollbars=1,lo
                                       <span title="Aqui debe de ir la informacion del indicador"><li><a href="#" >Capacidades MINCYT</a></li></span> 
 
                                          <ul>
-                                             <li id="sub" style="display:none;" onclick="ocultar()"><a href="#">sub-menu</a></li>
-                                            <script type="text/javascript">
-                                                function ocultar(){
-                                 document.getElementById('sub').style.display = 'none';
-                                                              }
-                                             </script>
-                                             <script type="text/javascript">
-                                               
-                                               function mostrar(){
-document.getElementById('obj1').style.display = 'block';
+                                             <li id="sub" style="display: none;" onclick="ocultar();"><a href="#">sub-menu</a></li>
+                                         <script type="text/javascript">
+                                           function mostrar(){
+document.getElementById('sub').style.display = 'block';
 }
-                                             </script>
+                                         </script>
+                                             
 
                                          </ul>
                                         
