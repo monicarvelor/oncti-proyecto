@@ -366,7 +366,15 @@ eval("page" + id + " = window.open(URL, '" + id + "', 'toolbar=1,scrollbars=1,lo
                                       <span title="Aqui debe de ir la informacion del indicador"><li><a href="#" >Capacidades MINCYT</a></li></span> 
 
                                          <ul>
-                                             <li><a href="#">sub-menu</a></li>
+                                             <li class="sub"><a href="#">sub-menu</a></li>
+                                             <style type="text/css">
+                                               .sub{display: none;
+ 
+                                               } 
+                                               .sub:hover{
+                                                display: block;
+                                               }
+                                             </style>
 
                                          </ul>
                                         
