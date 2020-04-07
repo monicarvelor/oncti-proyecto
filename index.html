@@ -363,41 +363,37 @@ eval("page" + id + " = window.open(URL, '" + id + "', 'toolbar=1,scrollbars=1,lo
                                     <a href="#" class="menu">INDICADORES</a>
                                     <ul class="dropdown">
                                        
-                                      <span title="Aqui debe de ir la informacion del indicador"><li><a href="#" >Capacidades MINCYT</a></li></span>
+                                      <span title="Aqui debe de ir la informacion del indicador"><li><a href="#" class="cp" >Capacidades MINCYT</a></li></span>
                                          <ul>  
                                              <li><a href="#">Sub-menu</a></li>
-                                             <style type="text/css">
-                                                li a{
- 
+                                            <style type="text/css">
+                                              
+                                              a.menu{
+                                                
+                                                display: inline-block;
+                                                list-style-type: none;
+                                                white-space: nowrap;
 
-  text-decoration: none;
- 
-  display: block;
-   }
- li{
-  float: left;
-}
+                                              }
+                                              ul.menu ul{
+                                                display: none;
+                                              }
 
- li ul{
-  display:none;
-  position: absolute;
+                                              ul.menu li{
+                                                position: relative;
+                                                display: inline-block;
+                                              }
 
-}
+                                              ul.menu ul li{display: block;}
 
- li:hover  > ul{
-  display: inline-block;
-}
+                                              ul.menu ul li:hover > ul{
+                                                display: block;
+                                                position: absolute;
+                                                left: 100%;
 
- li ul li{
-  position: relative;
-
-}
-
- li ul li ul{
-  right: -110px;
-  top:0px;
-}
-                                             </style>
+                                              }
+                                            </style>
+                                               
                                          </ul> 
 
                                         
