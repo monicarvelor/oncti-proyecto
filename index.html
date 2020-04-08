@@ -363,38 +363,20 @@ eval("page" + id + " = window.open(URL, '" + id + "', 'toolbar=1,scrollbars=1,lo
                                     <a href="#" class="menu">INDICADORES</a>
                                     <ul class="dropdown">
                                        
-                                      <span title="Aqui debe de ir la informacion del indicador"><li><a href="#" class="cp" >Capacidades MINCYT</a></li></span>
+                                      <span title="Aqui debe de ir la informacion del indicador"><li value="Mostrar" onclick="mostrar();"><a href="#">Capacidades MINCYT</a></li></span>
                                          <ul>  
-                                             <li><a href="#">Sub-menu</a></li>
-                                            <style type="text/css">
-                                              
-                                              a.menu{
-                                                
-                                                display: inline-block;
-                                                list-style-type: none;
-                                                white-space: nowrap;
-
-                                              }
-                                              ul.menu ul{
-                                                display: none;
-                                              }
-
-                                              ul.menu li{
-                                                position: relative;
-                                                display: inline-block;
-                                              }
-
-                                              ul.menu ul li{display: block;}
-
-                                              ul.menu ul li:hover > ul{
-                                                display: block;
-                                                position: absolute;
-                                                left: 100%;
-
-                                              }
-                                            </style>
+                                             <li id="mostrarOcultar"><a href="#">Sub-menu</a></li>
+                                          
                                                
                                          </ul> 
+                                         <script type="text/javascript">
+                                           function mostrar(){
+                                            document.getElementById("mostrarOcultar").style.display="none";
+                                            document.getElementById("mostrarOcultar").style.display="block";
+                                           }
+                                          
+
+                                         </script>
 
                                         
                                            
